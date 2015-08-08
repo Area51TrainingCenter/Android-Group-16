@@ -3,25 +3,31 @@ package pe.area51.broadcasttestapp;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
+import android.widget.Toast;
 
-public class MyBroadcastReceiver extends BroadcastReceiver{
-
-    private static final String TAG = "MyBroadcastReceiver";
+public class MyBroadcastReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        switch (intent.getAction()){
+        final String message;
+        switch (intent.getAction()) {
             case MainActivity.ACTION_MENU_BUTTON_CLICKED:
-                Log.d(TAG, "Button clicked!");
+                message = "Button clicked!";
                 break;
             case Intent.ACTION_BATTERY_LOW:
-                Log.d(TAG, "Battery low!");
+                message = "Battery low!";
                 break;
             case Intent.ACTION_AIRPLANE_MODE_CHANGED:
-                Log.d(TAG, "Airplane mode!");
+                message = "Airplane mode!";
+                break;
+            case Intent.ACTION_BOOT_COMPLETED:
+                message = "Boot completed!";
+                break;
+            default:
+                message = "N/A";
                 break;
         }
+        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
 }

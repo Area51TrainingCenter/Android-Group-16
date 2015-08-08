@@ -25,8 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.menu_main_send_custom_broadcast:
+                /*
+                Este flag hará que se incluyan las aplicaciones que se encuentren en estado detenido.
+                Una aplicación está en estado detenido cuando:
+                -Se ha instalado pero nunca ejecutado.
+                -Se ha forzado el cierre con la opción "Forzar cierre" del menú de configuración.
+                */
                 sendBroadcast(new Intent(ACTION_MENU_BUTTON_CLICKED)
                         .setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES));
                 return true;
