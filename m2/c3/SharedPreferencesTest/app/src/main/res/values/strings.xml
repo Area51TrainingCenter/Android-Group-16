@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharedPreferences Test</string>
+    <string name="register">Registrar</string>
+    <string name="name">Nombre</string>
+    <string name="last_visitor">Último visitante: %s</string>
+    <string name="first_visitor">¡Eres el primer visitante!</string>
+    <string name="welcome">¡Hola %s!</string>
+
+</resources>

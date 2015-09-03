@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThreadTest</string>
+    <string name="loading_message">Cargando&#8230;</string>
+    <string name="loading_title">Un momento</string>
+    <string name="run_on_main_thread">Hilo principal</string>
+    <string name="run_on_worker_thread">Hilo worker</string>
+    <string name="run_on_asynctask">Asynctask</string>
+</resources>
