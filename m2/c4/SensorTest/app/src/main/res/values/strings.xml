@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor Test</string>
+    <string name="enable_accelerometer">Activar acelerómetro</string>
+    <string name="disable_accelerometer">Desactivar acelerómetro</string>
+    <string name="axis_x">Eje X: %s</string>
+    <string name="axis_y">Eje Y: %s</string>
+    <string name="axis_z">Eje Z: %s</string>
+
+
+</resources>
