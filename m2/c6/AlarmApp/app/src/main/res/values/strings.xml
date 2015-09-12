@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Alarm App</string>
+
+    <string name="instructions">Ingresa en el campo de texto el tiempo en segundos para que se dispare la alarma</string>
+    <string name="register_alarm">Registrar alarma</string>
+    <string name="cancel_alarm">Cancelar alarma</string>
+    <string name="hint_time">Tiempo en segundos</string>
+    <string name="number_format_error">¡Debes ingresar un número entero!</string>
+    <string name="alarm_fired">¡Alarma disparada!</string>
+    <string name="alarm_status">Estado de la alarma: %s</string>
+    <string name="alarm_status_set">Programada</string>
+    <string name="alarm_status_no_set">No programada</string>
+</resources>

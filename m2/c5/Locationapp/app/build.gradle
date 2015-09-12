@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "pe.area51.locationapp"
+        minSdkVersion 15
+        targetSdkVersion 22
+        /*
+        Hemos puesto como target el API 22, ya que si ponemos el API 23 estaríamos en la obligación de utilizar el nuevo sistema de permisos de Android M.
+        Más información: https://developer.android.com/preview/features/runtime-permissions.html
+        */
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+}

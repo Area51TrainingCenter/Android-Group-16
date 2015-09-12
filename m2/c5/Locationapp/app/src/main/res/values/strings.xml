@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Location app</string>
+
+    <string name="get_location">Obtener ubicación</string>
+    <string name="stop_get_location">Detener obtención</string>
+    <string name="latitude">Latitud: %s</string>
+    <string name="longitude">Longitud: %s</string>
+    <string name="accuracy">Precisión: %s</string>
+    <string name="timestamp">Timestamp (Milisegundos): %s</string>
+    <string name="enable_location_dialog_title">¡Espera!</string>
+    <string name="enable_location_dialog_message">Debes habilitar todos los proveedores de localización (modo "Alta precisión").</string>
+    <string name="enable_location_dialog_positive">Habilitar</string>
+</resources>
