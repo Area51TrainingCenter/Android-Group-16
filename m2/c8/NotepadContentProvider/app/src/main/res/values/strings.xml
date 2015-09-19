@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fragment App</string>
+    <string name="add_note">Agregar</string>
+    <string name="get_notes">Listar</string>
+    <string name="delete_notes">Eliminar todo</string>
+
+</resources>
