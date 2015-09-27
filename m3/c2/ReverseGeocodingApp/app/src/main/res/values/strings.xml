@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reverse Geocoding App</string>
+
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="query">Consultar</string>
+    <string name="address">Dirección</string>
+    <string name="country">País</string>
+    <string name="location_on">Activar Ubicación</string>
+    <string name="location_off">Desactivar Ubicación</string>
+    <string name="connection_error">Ha ocurrido un problema con la conexión al servidor.</string>
+    <string name="parse_error">El servidor devolvió una respuesta inválida.</string>
+    <string name="getting_address">Obteniendo dirección&#8230;</string>
+    <string name="location_latitude">Latitud: %s</string>
+    <string name="location_longitude">Longitud: %s</string>
+    <string name="location_address">Dirección: %s</string>
+    <string name="location_country">País: %s</string>
+    <string name="input_error">Debes ingresar coordenadas válidas</string>
+</resources>
